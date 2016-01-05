@@ -4,8 +4,16 @@
  * Licensed under MIT
 */
 
+html, body, {
+     width: 100%;
+     height: 100%;
+     font-family: Caesar Dressing, serif;
+ }
 #title {
 	text-align: center;
+}
+#title, nav {
+	z-index: 999;
 }
 .pages {
 	width: 100%;
