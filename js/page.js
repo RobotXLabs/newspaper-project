@@ -10,3 +10,6 @@ function setPage(newPage) {
     $("#" + newPage).addClass("open-page");
     window.location.hash = newPage;
 }
+$(".link").click(function() {
+	setPage($(this).attr("data-page"));
+});
