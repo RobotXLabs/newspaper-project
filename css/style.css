@@ -17,10 +17,14 @@ html, body, {
 }
 .article {
 	width: 50%;
-	padding: 10px;
+	padding-top: 50px;
+}
+.articles {
+	clear: both;
 }
 #article-left {
 	float: left;
+	padding: 10px;
 }
 #article-right {
 	float: right;
