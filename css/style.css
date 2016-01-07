@@ -12,15 +12,18 @@ html, body, {
 #title {
 	text-align: center;
 }
-#title, nav {
-	z-index: 999;
-}
 .article {
 	width: 50%;
 	padding-top: 50px;
 }
-.articles {
+.clear {
 	clear: both;
+}
+.ad {
+	display: none;
+}
+.ad:hover {
+	display: block;
 }
 #article-left {
 	float: left;
@@ -28,4 +31,11 @@ html, body, {
 }
 #article-right {
 	float: right;
+}
+#stock-market {
+	margin: 0 auto;
+	display: table;
+}
+#stock-market-header {
+	text-align: center;
 }
