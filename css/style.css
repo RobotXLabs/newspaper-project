@@ -19,8 +19,11 @@ html, body, {
 .clear {
 	clear: both;
 }
-#ads td {
-  padding: 2px;
+#ads {
+  width: 30%;
+}
+#ads > tbody > tr > td {
+  padding: 7px;
 }
 .ad:hover {
 	display: block;
@@ -31,6 +34,19 @@ html, body, {
 }
 #article-right {
 	float: right;
+  padding: 10px;
+}
+#eyeball {
+  text-align: center;
+}
+#eye {
+  color: #F00;
+}
+#ball {
+  color: #00F;
+}
+#emporium {
+  color: #F0F;
 }
 table {
 	margin: 0 auto;
