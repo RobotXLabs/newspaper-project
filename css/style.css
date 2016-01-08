@@ -5,22 +5,22 @@
 */
 
 html, body, {
-     width: 100%;
-     height: 100%;
-     font-family: Caesar Dressing, serif;
+  width: 100%;
+  height: 100%;
+  font-family: Caesar Dressing, serif;
  }
 #title {
-	text-align: center;
+  text-align: center;
 }
 .article {
-	width: 50%;
-	padding-top: 50px;
+  width: 50%;
+  padding-top: 50px;
 }
 .clear {
 	clear: both;
 }
-.ad {
-	display: none;
+#ads td {
+  padding: 2px;
 }
 .ad:hover {
 	display: block;
@@ -32,7 +32,7 @@ html, body, {
 #article-right {
 	float: right;
 }
-#stock-market {
+table {
 	margin: 0 auto;
 	display: table;
 }
