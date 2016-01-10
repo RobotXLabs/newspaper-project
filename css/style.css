@@ -55,3 +55,6 @@ table {
 #stock-market-header {
 	text-align: center;
 }
+.link {
+  list-style: none;
+}
